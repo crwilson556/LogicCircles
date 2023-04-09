@@ -15,5 +15,6 @@ public class PlayerController : MonoBehaviour
     void Update()
     {
         transform.Translate(Vector3.right * speed);
+        transform.Rotate(Vector3.forward); //back right, forward left
     }
 }
